@@ -11,13 +11,13 @@
 		function secondHighest(arr) {
 			//Write your code here
 			int n = arr.length;
-			int largest = -Infinity;
+			int largest = -Infinity;  
 			if (n < 2) {
             document.write(" Invalid Input ");
             return;
             }
 			int secondLargest = -Infinity;
-			
+			  
 			for(int i=0; i<n; i++) {
 				if(arr[i]>largest) {
 					secondLargest = largest;
@@ -29,7 +29,6 @@
 
 			document.write(secondLargest);
 			return;
-			
 		}
 
 		function Main() {
@@ -40,7 +39,7 @@
 			}
 			alert(secondHighest(arr));
 		}
-		Main();
+		Main()
 	</script>
 
     <script type="text/javascript" src="./script.js">
